@@ -17,6 +17,6 @@ Patient records are firstly selected out from the raw data into a file, and each
 
 After constructing the vocabulary for medical concepts, i.e., assigning a identical integer to each medical concepts, medications, diagnoses, and procedures are represented by corresponding integers, and patient records are transformed into a np.array, while each element in the array represents information for a single patient in the form \[adm_1, adm_2, ..., adm_n\]. For each adm_i, the form is \[\[med_1, med_2, ..., med_m\],\[diag_1, diag_2, ..., dig_d\],\[pro_1, pro_2, ..., pro_p\],\[ddi rate\]]. For instance, we could find an example below, and there are two admissions in the example. For the first admission, the medications are 3, 4, and 5, the diagnoses are 6 and 7, the procedures are 8 and 9, and the ddi rate is 0.3.
 
-\[\[\[3,4,5\],\[6,7\],\[8,9\],\[0.3\]\],\[\[10,11\],\[12,13,14\],\[15,16\],\[0.2\]\]\]
+\[\[\[3, 4, 5\], \[6, 7\], \[8, 9\], \[0.3\]\], \[\[10 ,11\], \[12, 13, 14\], \[15, 16\], \[0.2\]\]\]
 
 # Code
