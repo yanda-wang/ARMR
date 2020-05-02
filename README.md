@@ -1,7 +1,7 @@
 # ARMR
 
 # Overview
-This repository consists of the implement of the ARMR model. ARMR is an end-to-end model for medication recommendation, and it is formed by a encoder-decoder framework for recommendation and a GAN framework for distribution regularization. The encoder-decoder framework takes diagnoses and procedures of patients as inputs, after generating patients' representations, the framework carries out multi-hop reading on a key-value memory network, whose keys are representations of historical admissions while the values are corresponding medications, to capture historical information of patients for medication recommendation. To avoid DDI, a GAN model is built to shape the distribution of patients' represnetations so that the it follows the distribution of representations related to patients with low DDI rate.
+This repository consists of the implement of the ARMR model. ARMR firstly models temporal information from medical records to obtain patient representations, and builds a key-value memory network based on information from historical admissions. Then ARMR carries out multi-hop reading on the memory network to recommend medications. Meanwhile, ARMR uses a GAN model to adversarially regulate the distribution of patient representations by matching the distribution to a desired Gaussian distribution to achieve DDI reduction.
 
 # Requirement
 Pytorch 1.1
