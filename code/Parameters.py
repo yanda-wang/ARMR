@@ -35,9 +35,9 @@ class Params:
         self.FAKE_label = 0
 
         self.fitted_distribution_label_num = 5
-        self.fitted_distribution_file_name = 'data/fitted_data/trained_by_0.4/RNNQuery_MHKVSep_2_64_64_False_general_general_None/0.23395872_0.1007286_0_0.00039942_0.09458251_0_7.882e-05_7_None/real_data_6_True_None_ddi_rate_0.4_standard_True'
-        self.fitted_distribution_file_name_train = 'data/fitted_data/trained_by_0.4/RNNQuery_MHKVSep_2_64_64_False_general_general_None/0.23395872_0.1007286_0_0.00039942_0.09458251_0_7.882e-05_7_None/real_data_6_True_None_ddi_rate_0.4_standard_True_train.npy'
-        self.fitted_distribution_file_name_test = 'data/fitted_data/trained_by_0.4/RNNQuery_MHKVSep_2_64_64_False_general_general_None/0.23395872_0.1007286_0_0.00039942_0.09458251_0_7.882e-05_7_None/real_data_6_True_None_ddi_rate_0.4_standard_True_test.npy'
+        self.fitted_distribution_file_name = 'data/fitted_data/trained_by_0.4/real_data_6_True_None_ddi_rate_0.4_standard_True'
+        self.fitted_distribution_file_name_train = 'data/fitted_data/trained_by_0.4/real_data_6_True_None_ddi_rate_0.4_standard_True_train.npy'
+        self.fitted_distribution_file_name_test = 'data/fitted_data/trained_by_0.4/real_data_6_True_None_ddi_rate_0.4_standard_True_test.npy'
 
-        self.ENCODER_OUTPUT_TRAIN_FILE_NAME = 'data/fitted_data/trained_by_0.4/RNNQuery_MHKVSep_2_64_64_False_general_general_None/0.23395872_0.1007286_0_0.00039942_0.09458251_0_7.882e-05_7_None/encoder_output_train_0.4_1.npy'
-        self.ENCODER_OUTPUT_TEST_FILE_NAME = 'data/fitted_data/trained_by_0.4/RNNQuery_MHKVSep_2_64_64_False_general_general_None/0.23395872_0.1007286_0_0.00039942_0.09458251_0_7.882e-05_7_None/encoder_output_test_0.4_1.npy'
+        self.ENCODER_OUTPUT_TRAIN_FILE_NAME = 'data/fitted_data/trained_by_0.4/encoder_output_train_0.4_1.npy'
+        self.ENCODER_OUTPUT_TEST_FILE_NAME = 'data/fitted_data/trained_by_0.4/encoder_output_test_0.4_1.npy'
